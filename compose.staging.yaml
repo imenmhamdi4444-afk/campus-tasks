@@ -1,0 +1,5 @@
+services:
+  api:
+    image: ghcr.io/imenmhamdi4444-afk/campus-tasks:${IMAGE_TAG}
+    ports: ["8081:8080"]
+    restart: unless-stopped
